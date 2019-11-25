@@ -1,0 +1,23 @@
+<div class="preloader">
+  <div class="loader">
+    <div class="loader__figure"></div>
+    <p class="loader__label">Admin Pro</p>
+  </div>
+</div>
+<div id="main-wrapper">
+  <app-header></app-header>
+  <app-sidebar></app-sidebar>
+  <div class="page-wrapper" style="background: #b6c4d0 !important;">
+    <app-breadcrums></app-breadcrums>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </div>
+    <app-footer></app-footer>
+  </div>
+</div>
+
